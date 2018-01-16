@@ -15,12 +15,12 @@ puts "----------"
   #   mens_apparel: true,
   #   womens_apparel: true
   # },
-  {
-    name: "Richmond",
-    annual_revenue: 1_260_000,
-    mens_apparel: false,
-    womens_apparel: true
-  },
+  # {
+  #   name: "Richmond",
+  #   annual_revenue: 1_260_000,
+  #   mens_apparel: false,
+  #   womens_apparel: true
+  # },
   {
     name: "Gastown",
     annual_revenue: 190_000,
