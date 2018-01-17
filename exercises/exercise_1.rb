@@ -10,7 +10,7 @@ puts "----------"
   # * Gastown (annual_revenue of 190000 carries men's apparel only)
 
 class Store < ActiveRecord::Base
-  s = Store.create (
+  Store.create (
     [
       {
         name: "Burnaby",

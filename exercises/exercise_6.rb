@@ -11,8 +11,8 @@ puts "----------"
 # Your code goes here ...
 @store1 = Store.find(1)
 @store1.employees.create( first_name: "Mary",
-                          last_name: "S",
-                          hourly_rate: 20
+                          last_name: "Shrives",
+                          hourly_rate: 45
                         )
 @store1.employees.create( first_name: "Don",
                           last_name: "Draper",
@@ -25,7 +25,7 @@ puts "----------"
                         )
 @store2.employees.create( first_name: "Joan",
                           last_name: "Holloway",
-                          hourly_rate: 25
+                          hourly_rate: 42
                         )
 @store2.employees.create( first_name: "Peggy",
                           last_name: "Olson",
